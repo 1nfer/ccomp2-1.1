@@ -3,26 +3,15 @@
 using namespace std;
 
 int main(){
-    int numero;
-    cin >>numero;
+    int a,b,c,prom;
+    cin>>a>>b>>c;
 
-    int mayor=numero;
-    int menor=numero;
-    int prom=numero;
+    (a>b&&a>c)?cout<<a<<endl:(b>c)?cout<<b<<endl:cout<<c<<endl;
+    (a<b&&a<c)?cout<<a<<endl:(b<c)?cout<<b<<endl:cout<<c<<endl;
 
-    for(int i=1;i!=3;i=i+1){
-        cin >>numero;
+    prom=(a+b+c)/3;
 
-        if(numero>mayor){
-            mayor=numero;
-        }
-        if(numero<menor){
-            menor=numero;
-        }
-        prom=prom+numero;
-    }
-    cout<<"i"<<":"<<menor<<endl;
-    cout<<"ii"<<":"<<mayor<<endl;
-    cout<<"iii"<<":"<<prom/3.0;
+    cout<<prom;
+
     return 0;
 }
