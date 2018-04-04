@@ -9,7 +9,7 @@ int main(){
     int a=0;
     int b=1;
     int c;
-    for(int i=0;i!=numero;i=i+1){
+    for(int i=0;i!=numero;i++){
         c=b+a;
         a=b;
         b=c;
