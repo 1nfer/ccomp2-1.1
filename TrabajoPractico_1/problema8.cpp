@@ -11,12 +11,8 @@ int main(){
     c= numero%1000/100;
     d= numero%10000/1000;
     e= numero%100000/10000;
+    
+    (a==e && b==d)?cout <<numero<<" es palindrome":cout <<numero<<" no es palindrome";
 
-    if(a==e && b==d){
-        cout <<numero<<" es palindrome";
-    }
-    else{
-        cout <<numero<<" no es palindrome";
-    }
     return 0;
 }
