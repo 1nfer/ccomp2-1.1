@@ -8,7 +8,7 @@ int main(){
     int fac=1;
 
     for(int i=numero;i!=0;i--){
-        fac=fac*i;
+        fac*=i;
     }
     cout <<fac;
     return 0;
