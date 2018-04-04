@@ -7,7 +7,7 @@ int main(){
     cin >>numero;
     int fac=1;
 
-    for(int i=numero;i!=0;i=i-1){
+    for(int i=numero;i!=0;i--){
         fac=fac*i;
     }
     cout <<fac;
