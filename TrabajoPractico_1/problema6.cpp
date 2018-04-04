@@ -30,7 +30,7 @@ int main(){
         }
         b=1;
         i=2;
-        numero=numero+1;
+        numero++;
     }
     return 0;
 }
