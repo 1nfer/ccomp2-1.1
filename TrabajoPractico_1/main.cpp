@@ -6,11 +6,7 @@ int main(){
     int edad;
     cin >> edad;
 
-    if(edad>=18){
-        cout << "Es mayor de edad";
-    }
-    else{
-        cout << "Es menor de edad";
-    }
+    edad>17?cout<<"mayor de edad":cout<<"menor de edad";
+
     return 0;
 }
