@@ -18,9 +18,9 @@ int main(){
         while(b==1 && i!=numero){
             if(numero%i==0){
                 b=0;
-                i=i+1;
+                i++;
             }
-            i=i+1;
+            i++;
         }
         if(b==0){
             cout <<"";
