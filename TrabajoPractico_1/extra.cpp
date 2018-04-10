@@ -2,14 +2,18 @@
 
 using namespace std;
 
-int main(){
-    int numero;
-    cin >>numero;
-    int fac=1;
+int factorial(int);
 
-    for(int i=numero;i!=0;i--){
-        fac*=i;
-    }
-    cout <<fac;
+int main(){
+    cout<<"Factorial: "<<factorial(5)<<endl;
     return 0;
+}
+
+
+int factorial(int n){
+    if(n==0){
+        n=1;
+        return n;
+    }
+    n*=factorial(n-1);
 }
