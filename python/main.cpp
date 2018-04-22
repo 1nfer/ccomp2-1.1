@@ -16,15 +16,15 @@ int sumaRec(const int a[], int tam){
     return a[tam]+sumaRec(a,tam);
 }
 
-void invertir(int a[],int tam){
+void invertir(int a[],int length){
     int izq=0;
-    int der=tam-1;
+    int der=length-1;
     while(izq<=der){
         int aux=a[izq];
         a[izq]=a[der];
         a[der]=aux;
-        izq++;
         der--;
+        izq++;
     }
 }
 
@@ -57,6 +57,9 @@ int main(){
     invertir(a,4);
     char s[]="hay ocho";
     char t[]="no hay";
+    for(int i=0; i<4; i++)
+        cout<<a[i];
+    cout<<endl;
     cout<<size(s)<<endl;
     cpy(s,t);
     cout<<s<<endl;
