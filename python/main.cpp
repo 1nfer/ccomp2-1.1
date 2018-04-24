@@ -12,8 +12,7 @@ int sumaRec(const int a[], int tam){
     if(tam==1){
         return a[0];
     }
-    tam--;
-    return a[tam]+sumaRec(a,tam);
+    return a[tam]+sumaRec(a,--tam);
 }
 
 void invertir(int a[],int length){
