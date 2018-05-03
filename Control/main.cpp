@@ -14,10 +14,21 @@ bool substring(char *s,char *t){
     return true;
 }
 
+char *invertir(char *s,int i=0, int tam=7){
+    if(tam==4){
+        return s;
+    }
+    int aux=s[i];
+    s[i]=s[tam];
+    s[tam]=aux;
+    return invertir(s,++i,--tam);
+}
+
 int main(){
     char s[]="alohjuan";
     char t[]="ohju";
-    char num[]="123";
-    cout<<convertir_entero(num)<<endl;
+    cout<<substring(s,t)<<endl;
+    invertir(s);
+    cout<<s;
     return 0;
 }
