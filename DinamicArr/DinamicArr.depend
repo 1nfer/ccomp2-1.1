@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527000882 source:c:\users\alumno-g\desktop\dinamicarr\main.cpp
+	<iostream>
+	"IntegerArray.h"
+
+1527001022 source:c:\users\alumno-g\desktop\dinamicarr\src\integerarray.cpp
+	<iostream>
+	"IntegerArray.h"
+
+1527000975 c:\users\alumno-g\desktop\dinamicarr\include\integerarray.h
+
