@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527550533 source:c:\users\christian\desktop\dinamicarray\main.cpp
+	<iostream>
+	"Array.h"
+
+1527550393 c:\users\christian\desktop\dinamicarray\include\array.h
+
+1527550488 source:c:\users\christian\desktop\dinamicarray\src\array.cpp
+	"Array.h"
+	<iostream>
+
